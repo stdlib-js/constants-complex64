@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-complex64",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "64-bit complex number mathematical constants.",
   "license": "Apache-2.0",
   "author": {
@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@stdlib/constants-complex64-num-bytes": "^0.0.7",
-    "@stdlib/utils-define-read-only-property": "^0.0.8"
+    "@stdlib/utils-define-read-only-property": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/utils-keys": "^0.0.7",
