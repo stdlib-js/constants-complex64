@@ -35,11 +35,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-complex64-num-bytes": "^0.0.7",
+    "@stdlib/constants-complex64-num-bytes": "^0.1.0",
     "@stdlib/utils-define-read-only-property": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/utils-keys": "^0.0.7",
+    "@stdlib/utils-keys": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
