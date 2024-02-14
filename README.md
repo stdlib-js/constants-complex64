@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-complex64/tags). For example,
+
+```javascript
 import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { NAN, NUM_BYTES, ZERO } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64@v0.2.0-deno/mod.js';
+import { NAN, NUM_BYTES, ZERO } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64@deno/mod.js';
 ```
 
 #### constants
@@ -86,7 +91,7 @@ var c = constants;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64@v0.2.0-deno/mod.js';
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64@deno/mod.js';
 
 console.log( objectKeys( constants ) );
 ```
